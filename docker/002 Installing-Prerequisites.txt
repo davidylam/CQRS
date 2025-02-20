@@ -1,0 +1,30 @@
+Run in Docker:
+docker run -it -d --name mongo-container \
+-p 27017:27017 --network mydockernetwork \
+--restart always \
+-v mongodb_data_container:/data/db \
+mongo:latest
+
+Download Client Tools â€“ Robo 3T:
+https://robomongo.org/download
+
+#9. Microsoft SQL Server
+
+docker run -d -e "ACCEPT_EULA=Y" -e "MSSQL_SA_PASSWORD=XxYy1234##**" `
+--name sql-container `
+--network mydockernetwork `
+--restart always `
+-p 1433:1433 `
+-v C:\\Dev\\docker\\mssql\\data:/var/opt/mssql/data `
+-v C:\\Dev\\docker\\mssql\\log:/var/opt/mssql/log `
+-v C:\\Dev\\docker\\mssql\\secrets:/var/opt/mssql/secrets `
+-v C:\\Dev\\docker\\mssql\\backup:/var/opt/mssql/backup `
+-d mcr.microsoft.com/mssql/server:2022-latest
+
+
+
+docker run -d --name sql-container \
+--network mydockernetwork \
+--restart always \
+-e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=$tr0ngS@P@ssw0rd02' -e 'MSSQL_PID=Express' \
+-p 1433:1433 mcr.microsoft.com/mssql/server:2017-latest-ubuntu

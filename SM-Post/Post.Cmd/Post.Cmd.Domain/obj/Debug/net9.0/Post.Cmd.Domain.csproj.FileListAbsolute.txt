@@ -1,0 +1,17 @@
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\Post.Cmd.Domain.deps.json
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\Post.Cmd.Domain.dll
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\Post.Cmd.Domain.pdb
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\CQRS.Core.dll
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\Post.Common.dll
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\CQRS.Core.pdb
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\bin\Debug\net9.0\Post.Common.pdb
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.csproj.AssemblyReference.cache
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.AssemblyInfoInputs.cache
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.AssemblyInfo.cs
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.1A443DE5.Up2Date
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.dll
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\refint\Post.Cmd.Domain.dll
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.pdb
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\ref\Post.Cmd.Domain.dll
