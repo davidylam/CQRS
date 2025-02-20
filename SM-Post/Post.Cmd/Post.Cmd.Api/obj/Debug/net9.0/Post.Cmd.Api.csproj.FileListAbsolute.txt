@@ -73,3 +73,5 @@ C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\runtimes\win-x86\nati
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\runtimes\win-x86\native\vcruntime140.dll
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\runtimes\win-x86\native\zlib1.dll
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\runtimes\win-x86\native\zstd.dll
+C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\obj\Debug\net9.0\Post.Cmd.Api.sourcelink.json
+C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

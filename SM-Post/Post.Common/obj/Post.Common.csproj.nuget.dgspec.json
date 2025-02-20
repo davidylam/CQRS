@@ -103,8 +103,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Dev\\CQRS\\cqrs-es\\CQRS.Core\\CQRS.Core.csproj": {
-                "projectPath": "C:\\Dev\\CQRS\\cqrs-es\\CQRS.Core\\CQRS.Core.csproj"
+              "C:\\Dev\\CQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+                "projectPath": "C:\\Dev\\CQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
               }
             }
           }

@@ -10,3 +10,4 @@ C:\Dev\CQRS\cqrs-es\CQRS.Core\obj\Debug\net9.0\refint\CQRS.Core.dll
 C:\Dev\CQRS\cqrs-es\CQRS.Core\obj\Debug\net9.0\CQRS.Core.pdb
 C:\Dev\CQRS\cqrs-es\CQRS.Core\obj\Debug\net9.0\ref\CQRS.Core.dll
 C:\Dev\CQRS\cqrs-es\CQRS.Core\obj\Debug\net9.0\CQRS.Core.csproj.AssemblyReference.cache
+C:\Dev\CQRS\cqrs-es\CQRS.Core\obj\Debug\net9.0\CQRS.Core.sourcelink.json

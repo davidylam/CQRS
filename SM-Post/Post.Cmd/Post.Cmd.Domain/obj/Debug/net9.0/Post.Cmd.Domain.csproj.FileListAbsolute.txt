@@ -15,3 +15,4 @@ C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.dl
 C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\refint\Post.Cmd.Domain.dll
 C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.pdb
 C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\ref\Post.Cmd.Domain.dll
+C:\Dev\CQRS\SM-Post\post.cmd\Post.Cmd.Domain\obj\Debug\net9.0\Post.Cmd.Domain.sourcelink.json

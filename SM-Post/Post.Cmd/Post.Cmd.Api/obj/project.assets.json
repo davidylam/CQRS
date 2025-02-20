@@ -431,8 +431,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "CQRS.Core": "1.0.0",
-          "Post.Common": "1.0.0"
+          "CQRS.Core": "1.0.0"
         },
         "compile": {
           "bin/placeholder/Post.Cmd.Domain.dll": {}
@@ -456,19 +455,6 @@
         },
         "runtime": {
           "bin/placeholder/Post.Cmd.Infrastructure.dll": {}
-        }
-      },
-      "Post.Common/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "dependencies": {
-          "CQRS.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Post.Common.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Post.Common.dll": {}
         }
       }
     }
@@ -1069,11 +1055,6 @@
       "type": "project",
       "path": "../Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj",
       "msbuildProject": "../Post.Cmd.Infrastructure/Post.Cmd.Infrastructure.csproj"
-    },
-    "Post.Common/1.0.0": {
-      "type": "project",
-      "path": "../../Post.Common/Post.Common.csproj",
-      "msbuildProject": "../../Post.Common/Post.Common.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1116,14 +1097,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Dev\\CQRS\\cqrs-es\\CQRS.Core\\CQRS.Core.csproj": {
-              "projectPath": "C:\\Dev\\CQRS\\cqrs-es\\CQRS.Core\\CQRS.Core.csproj"
+            "C:\\Dev\\CQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj": {
+              "projectPath": "C:\\Dev\\CQRS\\CQRS-ES\\CQRS.Core\\CQRS.Core.csproj"
             },
-            "C:\\Dev\\CQRS\\SM-Post\\post.cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj": {
-              "projectPath": "C:\\Dev\\CQRS\\SM-Post\\post.cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj"
+            "C:\\Dev\\CQRS\\SM-Post\\Post.cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj": {
+              "projectPath": "C:\\Dev\\CQRS\\SM-Post\\Post.cmd\\Post.Cmd.Domain\\Post.Cmd.Domain.csproj"
             },
-            "C:\\Dev\\CQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj": {
-              "projectPath": "C:\\Dev\\CQRS\\SM-Post\\Post.Cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj"
+            "C:\\Dev\\CQRS\\SM-Post\\Post.cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj": {
+              "projectPath": "C:\\Dev\\CQRS\\SM-Post\\Post.cmd\\Post.Cmd.Infrastructure\\Post.Cmd.Infrastructure.csproj"
             }
           }
         }
