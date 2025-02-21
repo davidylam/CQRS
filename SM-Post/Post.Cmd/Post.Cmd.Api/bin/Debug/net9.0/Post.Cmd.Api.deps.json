@@ -294,8 +294,7 @@
       },
       "Post.Cmd.Domain/1.0.0": {
         "dependencies": {
-          "CQRS.Core": "1.0.0",
-          "Post.Common": "1.0.0"
+          "CQRS.Core": "1.0.0"
         },
         "runtime": {
           "Post.Cmd.Domain.dll": {
@@ -314,17 +313,6 @@
         },
         "runtime": {
           "Post.Cmd.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Post.Common/1.0.0": {
-        "dependencies": {
-          "CQRS.Core": "1.0.0"
-        },
-        "runtime": {
-          "Post.Common.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -496,11 +484,6 @@
       "sha512": ""
     },
     "Post.Cmd.Infrastructure/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Post.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

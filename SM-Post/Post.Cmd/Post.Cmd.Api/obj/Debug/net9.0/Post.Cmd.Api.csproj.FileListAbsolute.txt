@@ -11,11 +11,9 @@ C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Microsoft.OpenApi.dll
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\CQRS.Core.dll
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Post.Cmd.Domain.dll
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Post.Cmd.Infrastructure.dll
-C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Post.Common.dll
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\CQRS.Core.pdb
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Post.Cmd.Domain.pdb
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Post.Cmd.Infrastructure.pdb
-C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\bin\Debug\net9.0\Post.Common.pdb
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\obj\Debug\net9.0\Post.Cmd.Api.csproj.AssemblyReference.cache
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\obj\Debug\net9.0\Post.Cmd.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Dev\CQRS\SM-Post\Post.cmd\Post.Cmd.Api\obj\Debug\net9.0\Post.Cmd.Api.AssemblyInfoInputs.cache

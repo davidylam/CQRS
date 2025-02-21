@@ -10,7 +10,6 @@
         "dependencies": {
           "CQRS.Core": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
-          "Post.Common": "1.0.0",
           "Post.Query.Domain": "1.0.0",
           "Post.Query.Infrastructure": "1.0.0"
         },
@@ -1128,21 +1127,9 @@
           }
         }
       },
-      "Post.Common/1.0.0": {
-        "dependencies": {
-          "CQRS.Core": "1.0.0"
-        },
-        "runtime": {
-          "Post.Common.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Post.Query.Domain/1.0.0": {
         "dependencies": {
-          "CQRS.Core": "1.0.0",
-          "Post.Common": "1.0.0"
+          "CQRS.Core": "1.0.0"
         },
         "runtime": {
           "Post.Query.Domain.dll": {
@@ -1791,11 +1778,6 @@
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "CQRS.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Post.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

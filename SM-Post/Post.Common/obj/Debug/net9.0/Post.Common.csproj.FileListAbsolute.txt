@@ -13,3 +13,4 @@ C:\Dev\CQRS\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.dll
 C:\Dev\CQRS\SM-Post\Post.Common\obj\Debug\net9.0\refint\Post.Common.dll
 C:\Dev\CQRS\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.pdb
 C:\Dev\CQRS\SM-Post\Post.Common\obj\Debug\net9.0\ref\Post.Common.dll
+C:\Dev\CQRS\SM-Post\Post.Common\obj\Debug\net9.0\Post.Common.sourcelink.json

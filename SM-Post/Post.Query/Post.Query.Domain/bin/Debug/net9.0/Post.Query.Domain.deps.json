@@ -8,8 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "Post.Query.Domain/1.0.0": {
         "dependencies": {
-          "CQRS.Core": "1.0.0",
-          "Post.Common": "1.0.0"
+          "CQRS.Core": "1.0.0"
         },
         "runtime": {
           "Post.Query.Domain.dll": {}
@@ -110,17 +109,6 @@
         },
         "runtime": {
           "CQRS.Core.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
-      "Post.Common/1.0.0": {
-        "dependencies": {
-          "CQRS.Core": "1.0.0"
-        },
-        "runtime": {
-          "Post.Common.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -233,11 +221,6 @@
       "hashPath": "zstdsharp.port.0.7.3.nupkg.sha512"
     },
     "CQRS.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Post.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
