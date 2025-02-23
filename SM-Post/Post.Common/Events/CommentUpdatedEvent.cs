@@ -2,14 +2,15 @@
 
 namespace Post.Common.Events
 {
-    public class MessageUpdatedEvent : BaseEvent
+    public class CommentUpdatedEvent : BaseEvent
     {
-        public MessageUpdatedEvent(): base(nameof(MessageUpdatedEvent))
+        public CommentUpdatedEvent() : base(nameof(CommentUpdatedEvent))
         {
-            
         }
 
-        public string? Message { get; set; }
-
+        public Guid CommentId { get; set; }
+        public string Comment { get; set; }
+        public string Username { get; set; }
+        public DateTime EditDate { get; set; }
     }
 }

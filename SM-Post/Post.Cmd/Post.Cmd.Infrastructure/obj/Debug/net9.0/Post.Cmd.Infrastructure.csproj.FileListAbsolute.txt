@@ -16,3 +16,5 @@ C:\Dev\CQRS\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net9.0\refint\Pos
 C:\Dev\CQRS\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net9.0\Post.Cmd.Infrastructure.pdb
 C:\Dev\CQRS\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net9.0\ref\Post.Cmd.Infrastructure.dll
 C:\Dev\CQRS\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\obj\Debug\net9.0\Post.Cmd.Infrastructure.sourcelink.json
+C:\Dev\CQRS\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\bin\Debug\net9.0\Post.Common.dll
+C:\Dev\CQRS\SM-Post\Post.Cmd\Post.Cmd.Infrastructure\bin\Debug\net9.0\Post.Common.pdb
