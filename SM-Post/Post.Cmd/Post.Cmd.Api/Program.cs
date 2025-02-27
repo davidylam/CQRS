@@ -1,7 +1,16 @@
+using CQRS.Core.Domain;
+using CQRS.Core.Infrastructure;
+using Post.Cmd.Infrastructure.Config;
+using Post.Cmd.Infrastructure.Stores;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.Configure<MongoDbConfig>(builder.Configuration.GetSection(nameof(MongoDbConfig)));
+builder.Services.AddScoped<IEventStoreRepository, IEventStoreRepository>();
+builder.Services.AddScoped<IEventStore, EventStore>();
+
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
