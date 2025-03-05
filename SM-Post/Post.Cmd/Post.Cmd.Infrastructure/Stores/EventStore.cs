@@ -2,25 +2,28 @@
 using CQRS.Core.Events;
 using CQRS.Core.Exceptions;
 using CQRS.Core.Infrastructure;
+using CQRS.Core.Producers;
+using Post.Cmd.Domain.Aggregate;
 
 namespace Post.Cmd.Infrastructure.Stores
 {
     public class EventStore : IEventStore
     {
         private readonly IEventStoreRepository _eventStoreRepository;
+        private readonly IEventProducer _eventProducer;
 
-        public EventStore(IEventStoreRepository eventStoreRepository)
+        public EventStore(IEventStoreRepository eventStoreRepository, IEventProducer eventProducer)
         {
-                _eventStoreRepository = eventStoreRepository;
+            _eventStoreRepository = eventStoreRepository;
+            _eventProducer = eventProducer;
         }
 
-        public async Task<List<BaseEvent?>> GetEventsAsync(Guid aggregateId)
+        public async Task<List<BaseEvent>> GetEventsAsync(Guid aggregateId)
         {
             var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
+
             if (eventStream == null || !eventStream.Any())
-            {
-                throw new AggregateNotFoundException("Incorrect post ID provided");
-            }
+                throw new AggregateNotFoundException("Incorrect post ID provided!");
 
             return eventStream.OrderBy(x => x.Version).Select(x => x.EventData).ToList();
         }
@@ -29,10 +32,8 @@ namespace Post.Cmd.Infrastructure.Stores
         {
             var eventStream = await _eventStoreRepository.FindByAggregateId(aggregateId);
 
-            if (expectedVersion != 1 && eventStream[^1].Version != expectedVersion)
-            {
+            if (expectedVersion != -1 && eventStream[^1].Version != expectedVersion)
                 throw new ConcurrencyException();
-            }
 
             var version = expectedVersion;
 
@@ -45,16 +46,18 @@ namespace Post.Cmd.Infrastructure.Stores
                 {
                     TimeStamp = DateTime.Now,
                     AggregateIdentifier = aggregateId,
-                    AggregateType = eventType,
+                    AggregateType = nameof(PostAggregate),
                     Version = version,
                     EventType = eventType,
                     EventData = @event
-
                 };
 
                 await _eventStoreRepository.SaveAsync(eventModel);
-            }
 
+                var topic = Environment.GetEnvironmentVariable("KAFKA_TOPIC");
+                await _eventProducer.ProduceAsync(topic, @event);
+            }
         }
     }
+
 }
